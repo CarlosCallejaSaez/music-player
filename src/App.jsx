@@ -6,14 +6,26 @@ import { FaLinkedin } from 'react-icons/fa';
 
 const songs = [
   {
-    title: 'Song 1',
-    artist: 'Artist 1',
-    src: '../public/assets/song1.mp3',
+    title: 'Happy Song',
+    artist: 'Pixabay',
+    src: '../public/assets/happy-song.mp3',
+    cover: '../public/assets/dvd-152917_1280.png'
+  },
+  {
+    title: 'Legacy of Chopin',
+    artist: 'Pixabay',
+    src: '../public/assets/legacy-of-chopin.mp3',
+    cover: '../public/assets/dvd-152917_1280.png'
+  },
+  {
+    title: 'Leva Eternity',
+    artist: 'Pixabay',
+    src: '../public/assets/leva-eternity.mp3',
     cover: '../public/assets/dvd-152917_1280.png'
   },
   {
     title: 'Good Night',
-    artist: 'Artist 2',
+    artist: 'Pixabay',
     src: '../public/assets/good-night.mp3',
     cover: '../public/assets/dvd-152917_1280.png'
   },
@@ -22,6 +34,7 @@ const songs = [
 ];
 
 const videos = [
+  '../public/assets/tunnel_-_124983 (720p).mp4',
   '../public/assets/neon_-_21368 (360p).mp4',
   '../public/assets/concert_-_1630 (360p).mp4',
   
@@ -38,7 +51,7 @@ function App() {
   };
   return (
     <>
-    <div className="header">
+        <div className="header">
         <h1 className="title">Music Player Carlos Calleja</h1>
         <a href="https://www.linkedin.com/in/carlos-calleja-saez/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin
@@ -47,8 +60,10 @@ function App() {
           />
         </a>
       </div>
+
     
     <div className="app">
+      
       
       <video
         autoPlay
