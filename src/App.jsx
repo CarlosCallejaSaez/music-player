@@ -8,35 +8,35 @@ const songs = [
   {
     title: 'Happy Song',
     artist: 'Pixabay',
-    src: '../public/assets/happy-song.mp3',
-    cover: '../public/assets/dvd-152917_1280.png'
+    src: '../public/happy-song.mp3',
+    cover: '../public/dvd-152917_1280.png'
   },
   {
     title: 'Legacy of Chopin',
     artist: 'Pixabay',
     src: '../public/assets/legacy-of-chopin.mp3',
-    cover: '../public/assets/dvd-152917_1280.png'
+    cover: '../public/dvd-152917_1280.png'
   },
   {
     title: 'Leva Eternity',
     artist: 'Pixabay',
-    src: '../public/assets/leva-eternity.mp3',
-    cover: '../public/assets/dvd-152917_1280.png'
+    src: '../public/leva-eternity.mp3',
+    cover: '../public/dvd-152917_1280.png'
   },
   {
     title: 'Good Night',
     artist: 'Pixabay',
-    src: '../public/assets/good-night.mp3',
-    cover: '../public/assets/dvd-152917_1280.png'
+    src: '../public/good-night.mp3',
+    cover: '../public/dvd-152917_1280.png'
   },
  
   
 ];
 
 const videos = [
-  '../public/assets/tunnel_-_124983 (720p).mp4',
-  '../public/assets/neon_-_21368 (360p).mp4',
-  '../public/assets/concert_-_1630 (360p).mp4',
+  '../public/tunnel_-_124983 (720p).mp4',
+  '../public/neon_-_21368 (360p).mp4',
+  '../public/concert_-_1630 (360p).mp4',
   
 ];
 
